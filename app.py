@@ -5,7 +5,7 @@ expenses = []
 
 
 def calculate_total(items):
-    return round(sum(e["amount"] for e in items), 2) 
+    return round(sum(e["amount"] for e in items), 2) +10
 
 
 def category_totals(items):
